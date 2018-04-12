@@ -9,9 +9,9 @@ try {
 }
 
 while ($row = $result->fetch()) {
-	$jokesList[] = $row['id'];
 	$jokesList[] = $row['joketext'];
-	$jokesList[] = $row['jokedate']; 
 }
 
-var_dump($jokesList);
+// echo "<pre>";
+// print_r($jokesList);
+// echo "</pre>";
